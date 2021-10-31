@@ -14,8 +14,24 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
 
+from foerderung import views as foerderung_views
+from kriterienkatalog import views as kriterienkatalog_views
+
+router = routers.DefaultRouter()
+router.register(r'foerderungen', foerderung_views.FoerderungViewSet)
+router.register(r'kriterienkataloge', kriterienkatalog_views.KriterienkatalogViewSet)
+
+# Wire up our API using automatic URL routing.
+# Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
+
+admin.site.site_header = "Smarter Fördermittelmanager"
+admin.site.site_title = "Smarter Fördermittelmanager"
+admin.site.index_title = "Willkommen im Admin-Bereich des smarten Fördermittelmanagers."
