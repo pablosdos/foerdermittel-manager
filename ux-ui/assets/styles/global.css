@@ -1,0 +1,601 @@
+.mediaViewInfo {
+  --web-view-name: landing_page;
+  --web-view-id: landing_page;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: landing_page;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#landing_page {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(240,254,255,1);
+  overflow: hidden;
+  --web-view-name: landing_page;
+  --web-view-id: landing_page;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+#header_bg {
+  position: absolute;
+  width: 1920px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_1 {
+  fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 1938px;
+  height: 138px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_1_y {
+  fill: rgba(255,255,255,1);
+}
+.Rectangle_1_y {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 1938px;
+  height: 138px;
+  left: 0px;
+  top: 0px;
+}
+#Der_kurze_Weg {
+  left: 48px;
+  top: 722px;
+  position: absolute;
+  overflow: visible;
+  width: 388px;
+  height: 104px;
+  line-height: 32px;
+  margin-top: -1px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(13,81,101,1);
+}
+#Frderungen {
+  opacity: 0.998;
+  left: 43px;
+  top: 184px;
+  position: absolute;
+  overflow: visible;
+  width: 486px;
+  height: 506px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  color: rgba(13,81,101,1);
+}
+#in_wenigen_Minut {
+  opacity: 0.998;
+  left: 43px;
+  top: 520px;
+  position: absolute;
+  overflow: visible;
+  width: 700px;
+  height: 0px;
+  text-align: start;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  color: rgba(13,81,101,1);
+  line-height: 80px;
+}
+#Ellipse_6 {
+  fill: rgba(255,255,255,1);
+}
+.Ellipse_6 {
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  height: 74px;
+  left: 1836px;
+  top: 27px;
+}
+#suchen_finden_beantragen {
+  position: absolute;
+  width: 403.04px;
+  height: 231.76px;
+  left: 45.46px;
+  top: 288px;
+  overflow: visible;
+}
+#Path_29 {
+  fill: rgba(22,204,211,1);
+}
+.Path_29 {
+  overflow: visible;
+  position: absolute;
+  width: 403.04px;
+  height: 231.76px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Eine_Marke_der_Pfalzwerke_Grup_ba {
+  left: 809px;
+  top: 1048px;
+  position: absolute;
+  overflow: visible;
+  width: 303px;
+  height: 54px;
+  text-align: center;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#Eine_Marke_der_Pfalzwerke_Grup_ba {
+  left: 809px;
+  top: 1048px;
+  position: absolute;
+  overflow: visible;
+  width: 303px;
+  height: 54px;
+  text-align: center;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#footer_area {
+  position: absolute;
+  width: 1920px;
+  height: 40px;
+  left: 0px;
+  top: 1040px;
+  overflow: visible;
+}
+#Rectangle_13 {
+  fill: rgba(255,255,255,1);
+}
+.Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+}
+#Eine_Marke_der_Pfalzwerke_Grup_ba {
+  left: 809px;
+  top: 1048px;
+  position: absolute;
+  overflow: visible;
+  width: 303px;
+  height: 54px;
+  text-align: center;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#logo_bounty_hunter_v4 {
+  position: absolute;
+  width: 158.996px;
+  height: 49.48px;
+  left: 30px;
+  top: 42.52px;
+  overflow: visible;
+}
+#Path_24 {
+  fill: rgba(13,81,101,1);
+}
+.Path_24 {
+  overflow: visible;
+  position: absolute;
+  width: 109.399px;
+  height: 49.48px;
+  left: 49.597px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Path_25 {
+  fill: rgba(22,204,211,1);
+}
+.Path_25 {
+  overflow: visible;
+  position: absolute;
+  width: 27.433px;
+  height: 40.862px;
+  transform: translate(0px, 0px) matrix(1,0,0,1,6.4108,3.5585) rotate(-21deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Ellipse_9 {
+  fill: rgba(13,81,101,1);
+}
+.Ellipse_9 {
+  position: absolute;
+  overflow: visible;
+  width: 22px;
+  height: 4px;
+  left: 15.752px;
+  top: 45.48px;
+}
+#Themen {
+  left: 679.75px;
+  top: 56px;
+  position: absolute;
+  overflow: visible;
+  width: 124px;
+  height: 40px;
+  transition: all 0.3s ease-out;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: themen.html;
+  cursor: pointer;
+  line-height: 32px;
+  margin-top: -1px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(13,81,101,1);
+}
+#ber_uns {
+  left: 880.25px;
+  top: 56px;
+  position: absolute;
+  overflow: visible;
+  width: 142px;
+  height: 40px;
+  line-height: 32px;
+  margin-top: -1px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(13,81,101,1);
+}
+#Kontakt {
+  left: 1099.25px;
+  top: 56px;
+  position: absolute;
+  overflow: visible;
+  width: 142px;
+  height: 40px;
+  line-height: 32px;
+  margin-top: -1px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(13,81,101,1);
+}
+#Group_28 {
+  position: absolute;
+  width: 249px;
+  height: 89px;
+  left: 685px;
+  top: 184px;
+  overflow: visible;
+}
+#Bundesland_auswhlen {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 214px;
+  height: 27px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#textfeld_short {
+  position: absolute;
+  width: 249px;
+  height: 52px;
+  left: 0px;
+  top: 37px;
+  overflow: visible;
+}
+#Rectangle_4 {
+  fill: transparent;
+  stroke: rgba(13,81,101,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_4 {
+  position: absolute;
+  overflow: visible;
+  width: 249px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+}
+#Path_30 {
+  fill: transparent;
+  stroke: rgba(0,0,0,1);
+  stroke-width: 2px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_30 {
+  overflow: visible;
+  position: absolute;
+  width: 15.04px;
+  height: 8.934px;
+  left: 218.244px;
+  top: 59.594px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Rheinland-Pfalz {
+  left: 15px;
+  top: 50px;
+  position: absolute;
+  overflow: visible;
+  width: 184px;
+  height: 27px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#start_btn {
+  position: absolute;
+  width: 316px;
+  height: 90px;
+  left: 1003px;
+  top: 198px;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: themen.html;
+  cursor: pointer;
+}
+#Rectangle_19 {
+  fill: rgba(13,81,101,1);
+}
+.Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 316px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+}
+#Frderung_finden {
+  left: 80.5px;
+  top: 30.5px;
+  position: absolute;
+  overflow: visible;
+  width: 195px;
+  height: 64px;
+  text-align: left;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(255,255,255,1);
+}
+#Polygon_1 {
+  fill: rgba(255,255,255,1);
+}
+.Polygon_1 {
+  overflow: visible;
+  position: absolute;
+  width: 38px;
+  height: 24px;
+  transform: translate(0px, 0px) matrix(1,0,0,1,32,33) rotate(90deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+}
+#Anmelden {
+  left: 1808px;
+  top: 72px;
+  position: absolute;
+  overflow: visible;
+  width: 94px;
+  height: 27px;
+  text-align: center;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#login_icon {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 1836px;
+  top: 27px;
+  overflow: visible;
+}
+#Ellipse_6_bs {
+  fill: rgba(255,255,255,1);
+}
+.Ellipse_6_bs {
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+}
+#Union_4 {
+  fill: rgba(13,81,101,1);
+}
+.Union_4 {
+  overflow: visible;
+  position: absolute;
+  width: 19.001px;
+  height: 29.498px;
+  left: 9.999px;
+  top: 8.501px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#menu_btn {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 40px;
+  top: 110px;
+  overflow: visible;
+}
+#Path_26 {
+  fill: rgba(255,255,255,1);
+}
+.Path_26 {
+  filter: drop-shadow(0px 3px 12px rgba(116, 116, 116, 1));
+  overflow: visible;
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#icon_menu_24 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: 16px;
+  overflow: visible;
+}
+#Rectangle_12 {
+  fill: transparent;
+}
+.Rectangle_12 {
+  position: absolute;
+  overflow: visible;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+}
+#Union_2 {
+  fill: rgba(13,81,101,1);
+}
+.Union_2 {
+  overflow: visible;
+  position: absolute;
+  width: 47px;
+  height: 72px;
+  left: 6px;
+  top: -5px;
+  transform: matrix(1,0,0,1,0,0);
+}
+#Frdern {
+  left: 1691px;
+  top: 72px;
+  position: absolute;
+  overflow: visible;
+  width: 94px;
+  height: 27px;
+  text-align: center;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0,0,0,1);
+}
+#foerdern_btn {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 1719px;
+  top: 27px;
+  overflow: visible;
+}
+#Ellipse_11 {
+  fill: rgba(255,255,255,1);
+}
+.Ellipse_11 {
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 74px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+}
+#MDI__currency-eur {
+  opacity: 0.995;
+  position: absolute;
+  width: 32.135px;
+  height: 32.135px;
+  left: 0.433px;
+  top: 2.933px;
+  overflow: visible;
+}
+#Boundary {
+  opacity: 0;
+  fill: rgba(13,81,101,1);
+}
+.Boundary {
+  position: absolute;
+  overflow: visible;
+  width: 32.135px;
+  height: 32.135px;
+  left: 0px;
+  top: 0px;
+}
+#Path__currency-eur {
+  fill: rgba(13,81,101,1);
+}
+.Path__currency-eur {
+  overflow: visible;
+  position: absolute;
+  width: 24.677px;
+  height: 24.101px;
+  left: 4.017px;
+  top: 4.017px;
+  transform: matrix(1,0,0,1,0,0);}
+
+#ergebnisse {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+}
+
+.selecter {
+  position: absolute;
+  z-index: 700;
+  width: 230px;
+  background-color: rgba(240,254,255,1);
+}
