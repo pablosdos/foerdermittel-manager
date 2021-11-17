@@ -29,7 +29,8 @@ export const actions = {
   // async getPrograms ({ commit }) {
   // nuxtServerInit MUSS IN index.js SEIN
   async nuxtServerInit ({ commit, dispatch }, { req, res }) {
-    const programs = await this.$axios.$get('http://bh-admin.paul-kluge.de//api/programs/')
+    // const programs = await this.$axios.$get('http://bh-admin.paul-kluge.de//api/programs/')
+    const programs = await this.$axios.$get('http://127.0.0.1:4000/api/programs/')
     const filteredPrograms = programs
     commit('addPrograms', programs)
     commit('addFilteredPrograms', filteredPrograms)

@@ -335,7 +335,8 @@ export default {
       console.log('sendMessage WIRD AUSGEFÜHRT')
       this.loading = true
       this.$axios
-        .post('http://bh-admin.paul-kluge.de/api/contact/', {
+       // .post('http://bh-admin.paul-kluge.de/api/contact/', {
+        .post('http://127.0.0.1:4000/api/contact/', {
           loading: false,
           success: false,
           errored: false,
