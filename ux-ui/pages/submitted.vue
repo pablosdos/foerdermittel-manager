@@ -1,10 +1,10 @@
 <template>
   <div id="danke_anfrage">
     <div id="Eine_Marke_der_Pfalzwerke_Grup_u">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+    <!--     <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_u">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!--    <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="footer_area" class="footer_area">
       <svg class="Rechteck_13">
@@ -20,7 +20,7 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_u">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+    <!--     <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="n__fr_Ihre_Anfrage">
       <span> <br>für Ihre Anfrage</span>

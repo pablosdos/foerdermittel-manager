@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: 2090
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Bounty Hunter',

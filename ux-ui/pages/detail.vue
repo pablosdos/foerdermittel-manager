@@ -104,7 +104,7 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!-- <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="Komponente_43__1" class="Komponente_43___1">
       <svg class="Pfad_39" viewBox="0 0 220 56">

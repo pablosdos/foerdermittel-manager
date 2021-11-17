@@ -94,10 +94,10 @@
       </div>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_cp">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!--    <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_cp">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!--    <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="Gruppe_18">
       <div id="Ort_hinzufgen">
@@ -304,7 +304,7 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_cp">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!--    <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="logo_bounty_hunter_v4" class="logo_bounty_hunter_v4">
       <svg class="Pfad_24" viewBox="1.83 8.76 109.399 49.48">

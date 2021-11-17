@@ -168,7 +168,7 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_by">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+    <!--     <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <svg class="Rectangle_14">
       <rect

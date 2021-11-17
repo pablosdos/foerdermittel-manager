@@ -42,10 +42,10 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_ba">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+      <!--<span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_ba">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+     <!-- <span>Eine Marke der Pfalzwerke Gruppe</span> -->
     </div>
     <div id="footer_area" class="footer_area">
       <svg class="Rectangle_13">
@@ -61,7 +61,7 @@
       </svg>
     </div>
     <div id="Eine_Marke_der_Pfalzwerke_Grup_ba">
-      <span>Eine Marke der Pfalzwerke Gruppe</span>
+   <!--   <span>Eine Marke der Pfalzwerke Gruppe</span>  -->
     </div>
     <div id="logo_bounty_hunter_v4" class="logo_bounty_hunter_v4">
       <svg class="Path_24" viewBox="1.83 8.76 109.399 49.48">
