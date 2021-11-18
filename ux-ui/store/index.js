@@ -5,6 +5,8 @@ import axios from 'axios'
 /* eslint-enable */
 import * as Filters from '~/helpers/filters'
 
+const logCounter = false
+
 export const state = () => ({
   programs: [],
   filteredPrograms: [],
@@ -13,9 +15,9 @@ export const state = () => ({
   detailProgram: {},
   filter: {
     search: '',
-    region: 'all',
-    theme: 'all',
-    type: 'all',
+    region: 'Alle',
+    theme: 'Alle',
+    type: 'Alle',
     order: 'name'
   }
 })
@@ -31,6 +33,11 @@ export const actions = {
   async nuxtServerInit ({ commit, dispatch }, { req, res }) {
     // const programs = await this.$axios.$get('http://bh-admin.paul-kluge.de//api/programs/')
     const programs = await this.$axios.$get('http://127.0.0.1:4000/api/programs/')
+    if (logCounter) {
+      console.log('ANZAHL ALLER FÖRDERMITTEL (index.js)')
+      console.log(programs)
+      console.log(programs.length)
+    }
     const filteredPrograms = programs
     commit('addPrograms', programs)
     commit('addFilteredPrograms', filteredPrograms)
@@ -92,5 +99,6 @@ export const mutations = {
   },
   addFilteredPrograms (state, filteredPrograms) {
     state.filteredPrograms.push({ ...filteredPrograms })
+    state.lengthOfFilteredPrograms = Object.keys(state.filteredPrograms[0]).length
   }
 }

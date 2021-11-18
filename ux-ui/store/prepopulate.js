@@ -71,6 +71,10 @@ export const state = () => ({
       {
         id: 17,
         title: 'Bundesweit'
+      },
+      {
+        id: 18,
+        title: 'Alle'
       }
     ],
     themes: [
@@ -97,6 +101,10 @@ export const state = () => ({
       {
         id: 6,
         title: 'Corona-Hilfe'
+      },
+      {
+        id: 7,
+        title: 'Alle'
       }
     ]
   },
