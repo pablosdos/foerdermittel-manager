@@ -91,12 +91,25 @@ WSGI_APPLICATION = 'bounty_hunters.wsgi.application'
 #    }
 #}
 
+# Server
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bountyhunter',
+        'PASSWORD': 'bh',
+        'USER': 'bountyhunter',
+        'HOST': 'localhost',
+        'PORT': 5432,
+
     }
 }
+
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
+#}
 
 
 # Password validation

@@ -31,8 +31,8 @@ export const actions = {
   // async getPrograms ({ commit }) {
   // nuxtServerInit MUSS IN index.js SEIN
   async nuxtServerInit ({ commit, dispatch }, { req, res }) {
-    // const programs = await this.$axios.$get('http://bh-admin.paul-kluge.de//api/programs/')
-    const programs = await this.$axios.$get('http://127.0.0.1:4000/api/programs/')
+    const programs = await this.$axios.$get('http://bh-admin.paul-kluge.de//api/programs/')
+    // const programs = await this.$axios.$get('http://127.0.0.1:4000/api/programs/')
     if (logCounter) {
       console.log('ANZAHL ALLER FÖRDERMITTEL (index.js)')
       console.log(programs)
