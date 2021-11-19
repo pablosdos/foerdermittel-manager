@@ -380,6 +380,39 @@
           "SORTIEREN NACH"-FUNKTION
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 -->
+    <div id="SortierenNachSchrift">
+      <p
+        v-click-outside="closeOrderDropDown"
+        @click="orderOpen = !orderOpen"
+        class="text-gray-700 cursor-pointer flex items-center"
+      >
+        <span class="mr-1">Sortieren nach</span>
+        <span v-show="orderChanged" class="font-semibold"> {{ orderText }}</span>
+      </p>
+    </div>
+      <div id="SortierenNach">
+        <div id="Ort_eingeben">
+          <!--<select v-show="orderOpen" class="selecter_sorting">-->
+          <select class="selecter_sorting">
+            <!-- <option
+               :selected="true"
+               :class="{ 'text-indigo-600 font-semibold' : order === 'name' }"
+               @click="handleFilterOrder('name')"
+               class="cursor-pointer pb-1 hover:text-indigo-600"
+             >
+               Name
+             </option>-->
+            <option
+              :selected="true"
+              :class="{ 'text-indigo-600 font-semibold' : order === 'foerdergeber' }"
+              @click="handleFilterOrder('foerdergeber')"
+              class="cursor-pointer pb-1 hover:text-indigo-600"
+            >
+              Fördergeber
+            </option>
+          </select>
+        </div>
+      </div>
     <!--
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
